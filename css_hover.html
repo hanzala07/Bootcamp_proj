@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>css_hover</title>
+
+    <style type="text/css">
+
+        #ul1 li ul li{display: none;}
+      
+        #ul1 li:hover ul li{display: block;}
+        #ul1 li:hover ul li ul li{display: none;}
+
+        #ul1 li ul li:hover ul li {display:block;}
+        #ul1 li ul li:hover ul li ul li {display: none;}
+
+        #ul1 li ul li ul li:hover ul li {display: block}
+
+
+    </style>
+</head>
+<body>
+    <ul id="ul1">
+        <li>Google
+            <ul>
+                <li>Gmail
+                    <ul>
+                        <li>signup</li>
+                        <li>singin
+
+                            <ul>
+                                <li>sign in as admin</li>
+                                <li>sign in as member</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Youtube</li>
+                <li>GDrive</li>
+                <li>Map</li>
+            </ul>
+        </li>
+        <li>Facebook</li>
+        <li>Microsoft</li>
+        <li>MSN</li>
+        <li>Amazon
+            <ul>
+                <li>AWS</li>
+                <li>E-commerce</li>
+                <li>A-ML</li>
+            </ul>
+        </li>
+        
+
+    </ul>
+    
+</body>
+</html>
