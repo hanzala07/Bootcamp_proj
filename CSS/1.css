@@ -1,0 +1,12 @@
+.h3{background-color:grey ;}
+.ul1{background-color: goldenrod;}
+.ol1{background-color: darkred;font-family: cursive;}
+.dl1{background-color: darkgreen; font-style: oblique;}
+.nl{background-color: darkorchid; font-family: 'Calibri';}
+.ul2{background-color: lightseagreen;font-size: large; font-family:fantasy;}
+.li2{background-color: tomato; font-size: large; font-family:'Geneva';}
+.b1{background-color:darkgoldenrod; font-size: larger;}
+.o1{background-color: coral; font-size: larger;}
+.o2{background-color:hotpink; font-size: larger;}
+.o3{background-color:saddlebrown; font-family:fantasy;}
+table tr td  {border:2px solid black; background-color: coral;}
